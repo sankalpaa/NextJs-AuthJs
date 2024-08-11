@@ -36,3 +36,16 @@ To create auth secret key and environment variable
 `npx auth secret`
 
 `AUTH_SECRET={AUTH_SECRET}`
+
+Add auth configuration and api files without providers
+
+`src\configuration\auth.ts`
+
+`src\app\api\auth\[...nextauth]\route.ts`
+
+API can be tested browing to API method.
+eg- Signin API can be tested 
+
+`http://localhost:3000/api/auth/signin`
+
+(Blank provider screen should load)
