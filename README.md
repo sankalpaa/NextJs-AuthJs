@@ -49,3 +49,10 @@ eg- Signin API can be tested
 `http://localhost:3000/api/auth/signin`
 
 (Blank provider screen should load)
+
+With setup of providers above signin api should diplay those.
+Register application setup 'clientid' and 'clientsecreat' should be done with each provider before using that. 
+eg- How to setup Github provider. 
+`https://authjs.dev/guides/configuring-github`
+
+
