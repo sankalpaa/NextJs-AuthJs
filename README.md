@@ -56,3 +56,4 @@ eg- How to setup Github provider.
 `https://authjs.dev/guides/configuring-github`
 
 
+sign-in.tsx, user-avator.tsx components with basic session management.
