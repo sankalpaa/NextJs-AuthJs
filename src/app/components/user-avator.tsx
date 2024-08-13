@@ -11,7 +11,7 @@ export default async function UserAvatar() {
                     <img src={session.user.image} className="avator-image" alt="User Avatar" />
                 )
             }
-            <h5>{session.user.name}</h5>
+            <h5><a href="/pages/profile">{session.user.name}</a></h5>
         </div>
     )
 }

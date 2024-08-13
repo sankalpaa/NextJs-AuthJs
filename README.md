@@ -57,3 +57,5 @@ eg- How to setup Github provider.
 
 
 sign-in.tsx, user-avator.tsx components with basic session management.
+
+sign out funcationality handled under pages\profile\page.tsx
