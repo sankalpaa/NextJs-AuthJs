@@ -59,3 +59,17 @@ eg- How to setup Github provider.
 sign-in.tsx, user-avator.tsx components with basic session management.
 
 sign out funcationality handled under pages\profile\page.tsx
+
+### Middleware base Route protection
+All protected content routes are protected using middleware base route guard. (middleware.ts)
+Protected pages are configured in the same file.
+
+eg. 
+`/pages/profile` 
+`/pages/protectedPage1`
+
+all other resources are open 
+
+eg.
+`/pages/unProtectedPage1`
+
